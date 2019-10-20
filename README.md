@@ -1,3 +1,3 @@
 # fullstackcourse
 
-Coding assignments I have completed for fullstackopen.com MOOC
+Coding assignments I have completed for [Full Stack Open MOOC](fullstackopen.com/en)
