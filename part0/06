@@ -1,0 +1,24 @@
+note over browser:
+New note is added to list
+via js redraw handler
+end note
+
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa 
+
+note over server:
+server receives note in 
+JSON format and saves it
+end note
+
+server-->browser: HTTP 201
+
+note over browser:
+browser does not
+reload the page
+end note
+
+note over browser:
+console logs 
+{"message":"note created"}
+from spa.js
+end note
